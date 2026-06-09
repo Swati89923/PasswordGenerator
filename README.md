@@ -1,16 +1,118 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Password Generator built using React, Vite, Tailwind CSS and React Hooks.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://password-generator-ivory-two-39.vercel.app
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Generate secure random passwords
+- Adjustable password length
+- Include numbers
+- Include special characters
+- One-click copy to clipboard
+- Responsive UI
+- Built with React Hooks
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- Vercel
+
+## 📚 React Concepts Used
+
+### useState
+Used to manage:
+
+- Password Length
+- Generated Password
+- Number Toggle
+- Character Toggle
+
+### useCallback
+Used to optimize password generation function and avoid unnecessary re-creation.
+
+### useEffect
+Used to regenerate password whenever:
+
+- Length changes
+- Number option changes
+- Character option changes
+
+### useRef
+Used to access the password input field and implement copy functionality.
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── App.jsx
+├── App.css
+├── index.css
+├── main.jsx
+│
+└── assets/
+```
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Swati89923/PasswordGenerator.git
+```
+
+Move into project directory
+
+```bash
+cd PasswordGenerator
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+## 🖥️ Build Project
+
+```bash
+npm run build
+```
+
+## 🌐 Deployment
+
+Project deployed on:
+
+- Vercel
+
+## 🎯 Learning Outcome
+
+This project helped me understand:
+
+- React Hooks
+- State Management
+- Event Handling
+- Password Generation Logic
+- Tailwind CSS
+- Vercel Deployment
+- Git & GitHub Workflow
+
+## 👩‍💻 Author
+
+Swati Kumari
+
+GitHub:
+https://github.com/Swati89923
